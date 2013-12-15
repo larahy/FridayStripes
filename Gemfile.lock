@@ -7,11 +7,14 @@ GEM
     sinatra (1.1.0)
       rack (~> 1.1)
       tilt (~> 1.1)
+    sinatra-partial (0.4.0)
+      sinatra
     tilt (1.4.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  shotgun
+  shotgun (~> 0.9)
   sinatra (= 1.1.0)
+  sinatra-partial

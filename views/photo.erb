@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>Photos</title>
+  <!--link to the CSS stylesheet -->
+  <link href="/stylesheets/app.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <a href="/photos">
+      <button>SHUFFLE</button>
+  </a>
+  <div id="collage">
+    <% 4.times do |row| %>
+      <div class='row'>
+        <% 4.times do |box| %>
+          <div class='box'>
+            <%box_index = row * 4 + box %>
+            <%box_value = @image[box_index].value%>
+            <img src="<%= box_value %>">
+          </div>
+        <%end%>
+      </div>
+    <%end%>    
+  </div>
+</body>
+</html>
+
+
+
+
