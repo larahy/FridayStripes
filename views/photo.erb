@@ -6,15 +6,28 @@
 </head>
 
 <body>
-  <a href="/photos">
-      <button>SHUFFLE</button>
-  </a>
+
+
+<div class="nav">
+  <ul>
+    <li><a href="index.php" title="Home">Home</a></li>
+    <li><a href="savoir_faire.php" title="Savoir-Faire">Savoir-Faire</a></li>
+    <li><a href="our_collections.php" title="Our Collections">Our Collections</a></li>
+    <li><a href="inspiration.php" title="Inspiration">Inspiration</a></li>
+    <li><a href="showrooms.php" title="Showrooms">Showrooms</a></li>
+    <li><a href="contact_us.php" title="Contact Us">Contact Us</a></li>
+  </ul>
+</div>
+  <div id ="shuffle">
+  <a class="enter" href="/photos">SUPERTRAMP</a>
+  </div>
+
   <div id="collage">
     <% 4.times do |row| %>
       <div class='row'>
-        <% 4.times do |box| %>
+        <% 7.times do |box| %>
           <div class='box'>
-            <%box_index = row * 4 + box %>
+            <%box_index = row * 4 + row * 3+ box %>
             <%box_value = @image[box_index].value%>
             <img src="<%= box_value %>">
           </div>
