@@ -25,12 +25,11 @@ html, body, #bg, #bg table, #bg td, #cont {
   font-size: 50px;
 }
 
-#shuffle{
+#shuffle {
   position: absolute;
   width: 100%;
   text-align: center;
-  top: 35%;
-  height: 86px;
+  top: 36%;
   z-index: 10;
   font-family: Century Gothic, sans-serif;
   color: white;
@@ -59,15 +58,33 @@ html, body, #bg, #bg table, #bg td, #cont {
 }
 
 #textMenu {
-  /*background-color: white;*/
+  background-color: white;
   position: relative;
   overflow: hidden;
   margin-top: -91px;
-  margin-right: 5%
+  margin: 40px;
+  float: left;
   line-height: 28px;
   letter-spacing: 1px;
-  height: 400px;
-  width: 15%;
+  height: 45%;
+  width: 10%;
+  font-family: Century Gothic, sans-serif;
+  color: #040057;
+  text-align: center;
+  font-size: 12px;
+  z-index: 11;
+}
+
+#column1 {
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+  margin: 40px;
+  float: left;
+  line-height: 28px;
+  letter-spacing: 1px;
+  height: 60%;
+  width: 14%;
   font-family: Century Gothic, sans-serif;
   color: #040057;
   text-align: left;
@@ -75,23 +92,38 @@ html, body, #bg, #bg table, #bg td, #cont {
   z-index: 11;
 }
 
-#textBody {
+#column2 {
+ background-color: white;
   position: relative;
-  top: ;
-  margin-top: -54px;
-  margin-left: 239px;
-  line-height: 16px;
+  overflow: hidden;
+  margin: 40px;
+  float: left;
+  line-height: 28px;
   letter-spacing: 1px;
-  height: 240px;
-  width: 285px;
+  height: 75%;
+  width: 18%;
   font-family: Century Gothic, sans-serif;
   color: #040057;
   text-align: left;
-  font-size: 12px;
+  font-size: 11px;
   z-index: 11;
-  overflow: hidden;
 }
 
+#column3 img {
+  position: relative;
+  overflow: hidden;
+  margin: 40px;
+  float: left;
+  line-height: 28px;
+  letter-spacing: 1px;
+  height: 90%;
+  width: 22%;
+  font-family: Century Gothic, sans-serif;
+  color: #040057;
+  text-align: left;
+  font-size: 11px;
+  z-index: 11;
+}
 
 #bg div {
     height: 200%;
@@ -106,12 +138,10 @@ html, body, #bg, #bg table, #bg td, #cont {
     vertical-align: middle;
 }
 
-/*  img tag  */
 img { 
     display: block; 
 }
   
-/* img tag inside element with id=bg */
 #bg img {
     margin: 0 auto;
     min-height: 50%;
@@ -119,36 +149,6 @@ img {
     z-index: 1;
 }
 
-/* Webkit browser bg stretch fix */
-/* this will apply to all img and a elements
-   inside #supersize */
-#supersize img, #supersize a {
-  height: 100%;
-  width: 100%;
-  display: none;
-}
-
-/* element with class activeslide inside #supersize,
-   AND it will also apply to img elements inside
-   .activeslide inside #supersize */
-#supersize .activeslide, #supersize .activeslide img {
-  display: inline;
-}
-
-/*  img tag  */
-img { 
-    display: block; 
-}
-  
-/* img tag inside element with id=bg */
-#bg img {
-    margin: 0 auto;
-    min-height: 50%;
-    min-width: 50%;
-    z-index: 1;
-}
-
-/* "a" element with class "enter" in state "link" */
 a.enter:link { 
   color: #fff;
   text-decoration:none;
@@ -169,13 +169,8 @@ a.enter:hover {
   text-decoration:none;
 }
 
-#collage {
-  /*font-size: 0;*/
-  text-align: center;
-}
-
 .nav {
-  height:30px;
+  height:8%;
   background-color: #fff;
   z-index: 1
 }
@@ -212,7 +207,9 @@ div.box {
 }
 
 .box img {
-  width: 158px;
-  height: 158px;
+  width: 160px;
+  height: 160px;
+  border-right: solid white 6px;
+  border-left: solid white 6px;
 }
 

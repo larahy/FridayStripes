@@ -28,7 +28,7 @@ def random_images
 	walken = Photo.new("/larabarrr/walken_pinstripe.png")
 	water = Photo.new("/larabarrr/water.png")
 	susanna = Photo.new("/larabarrr/susanna.png")
-	stripe = Photo.new("/larabarrr/bluestripes.png")
+	catdog = Photo.new("/larabarrr/catdog.png")
 	australia = Photo.new("/larabarrr/australia.png")
 	july = Photo.new("/larabarrr/july.png")
 	powder = Photo.new("/larabarrr/powder_room.png")
@@ -37,7 +37,7 @@ def random_images
 	luggage = Photo.new("/larabarrr/luggage.png")
 	inukshuk = Photo.new("/larabarrr/inukshuk.png")
 
-	images.insert(0, sailors, aero, attitude, bath, cafe, rainbow, zebra, bikes, jules, croatia, sixties, tennis, picasso, matisse, icecream, beverly, birthday, walken, water, susanna, stripe, australia, july, powder, guiness, hills, luggage, inukshuk)
+	images.insert(0, sailors, aero, attitude, bath, cafe, rainbow, zebra, bikes, jules, croatia, sixties, tennis, picasso, matisse, icecream, beverly, birthday, walken, water, susanna, catdog, australia, july, powder, guiness, hills, luggage, inukshuk)
 	images
 end
 
