@@ -12,12 +12,12 @@ html, body, #bg, #bg table, #bg td, #cont {
   width: 100%; 
 }
 
+
 #FridayStripes {
   position: absolute;
   width: 720px;
   height: 86px;
   top: 50%;
- /* margin-top: -43px;*/
   margin-left: 58%;
   z-index: 10;
   font-family: Century Gothic, sans-serif;
@@ -170,29 +170,28 @@ a.enter:hover {
 }
 
 .nav {
-  height:8%;
+  height:10%;
   background-color: #fff;
   z-index: 1
 }
-.nav ul,.hpFooter ul {
+.nav ul {
   text-align:center;
   list-style:none;
   text-transform:uppercase;
   margin:0;
   padding:0;
 }
-.nav li,.hpFooter li {
+.nav li {
   display:inline;
 }
-.nav li a,.hpFooter li a {
+.nav li a {
   color: #040057;
   text-align:center;
-  padding:0 17px 0 17px;
-  margin-top:10px;
+  padding:45px 10px 50px 30px;
   display:inline-block;
   text-decoration:none;
 }
-.nav li a:hover,.nav li:hover > a,.hpFooter li a:hover { 
+.nav li a:hover,.nav li:hover { 
   color:#fff;
 }
 

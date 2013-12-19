@@ -42,16 +42,16 @@ def random_images
 end
 
 get '/' do
-  erb :home
-end
-
-
-get '/friday' do
-  erb :index
-end
-
-get '/photos' do
-  @image = random_images.shuffle
+	@image = random_images.shuffle
   erb :photo
+end
+
+
+get '/wip' do
+  erb :wip
+end
+
+get '/home' do
+  erb :home
 end
 
