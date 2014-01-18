@@ -29,11 +29,11 @@ html, body, #bg, #bg table, #bg td, #cont {
   position: absolute;
   width: 100%;
   text-align: center;
-  top: 25%;
+  top: 30%;
   z-index: 10;
   font-family: Century Gothic, sans-serif;
   color: white;
-  font-size: 128px;
+  font-size: 110px;
 }
 
 #enter {
@@ -211,7 +211,9 @@ div.box {
 .box img {
   width: 100%;
   height: 100%;
-  border-right: solid white 6px;
-  border-left: solid white 6px;
+  border-top: solid white 19px;
+  border-bottom: solid white 19px;
+  border-right: solid white 0px;
+  border-left: solid white 0px;
 }
 
